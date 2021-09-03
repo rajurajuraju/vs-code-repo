@@ -1,0 +1,17 @@
+{
+  "name": "tailwindproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init":"tailwindcss-cli init",
+    "build": "tailwindcss-cli build ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.1.2",
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
